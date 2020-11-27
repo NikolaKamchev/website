@@ -1,3 +1,14 @@
+/* Master Styles */
+body {
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr
+}
+
+/* Navigation Styles */
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -33,3 +44,5 @@ nav.wrapper > .left-side > div {
 .nav-link-wrapper a:hover {
   color: black;
 }
+
+/* Portfolio Styles*/
